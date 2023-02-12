@@ -5,11 +5,11 @@
     justify-content: center;
     padding: 3vh;
     height: 6vh;
-    background-color: blueviolet;
+    background: transparent;
 }
 
 .navbar .directories a {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 

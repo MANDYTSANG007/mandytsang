@@ -7,7 +7,7 @@ const Navbar = () => {
     return (
         <nav className="navbar">
             <img
-                src={require(`../../assets/${navbar ? "x" : "menu"}.png`)}
+                src={require(`../../assets/${navbar ? "x-white" : "menu-white"}.png`)}
                 alt=""
                 className="menu-icon"
                 onClick={() => {
