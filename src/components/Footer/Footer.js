@@ -1,12 +1,37 @@
 import React from "react";
+import "./Footer.css";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
     return (
-        <>
-            <nav>
-                <h1> Footer</h1>
-            </nav>
-        </>
+        <footer className="footer">
+            <div className="footer-container">
+                <img
+                    src={require("../../assets/logo.png")}
+                    alt="logo"
+                    className="footer-logo"
+                />
+                <div className="footer-nav">
+                    <div className="footer-column">
+                        <h5 className="footer-title"> Menu </h5>
+                        <ul className="footer-list">
+                            <li><Link to="/"> Home </Link></li>
+                            <li><Link to="/portfolio"> Portfolio </Link></li>
+                            <li><Link to="/contact"> Contact </Link></li>
+                        </ul>
+                    </div>
+                    <div className="footer-column">
+                        <h5 className="footer-title"> Social Media </h5>
+                        <ul className="footer-list">
+                            <li> GitHub </li>
+                        </ul>
+                    </div>
+                </div>
+                <div className="footer-copyright">
+                    <p> Site design / logo @ 2023 Mandy Tsang </p>
+                </div>
+            </div>
+        </footer>
     )
 }
 export default Footer;

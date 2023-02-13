@@ -1,0 +1,74 @@
+.footer {
+    color: white;
+    padding: 2vh 5%;
+}
+
+.footer-container {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.footer-logo {
+    padding: 5vh;
+    height: 15vh;
+}
+
+.footer-nav {
+    display: flex;
+    flex: 2 1 auto;
+    flex-wrap: wrap;
+}
+
+.footer-column {
+    flex: 1 0 auto;
+}
+
+.footer-title {
+    text-transform: uppercase;
+}
+
+.footer-list {
+    list-style: none;
+}
+
+.footer-copyright {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 150px;
+}
+
+/* For mobile phone */
+@media only screen and (max-width: 600px) {
+    .footer-container {
+        display: flex;
+        flex-flow: row wrap;
+    }
+    .footer-logo {
+        flex: 0 0 64px;
+    }
+    .footer-nav {
+        flex-direction: column;
+        display: flex;
+        flex: 2 1 auto;
+        flex-wrap: wrap;
+    }
+    
+    .footer-column {
+        flex: 1 0 auto;
+    }
+    /* To make the list horizontal */
+    .footer-list {
+        display: flex;
+        flex-wrap: wrap;
+        /* row-gap: 5px; */
+    }
+    .footer-copyright {
+        flex: 1 1 150px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* global 
+div display: block */
