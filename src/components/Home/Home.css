@@ -23,11 +23,12 @@
 .home-heading1 {
     font-size: 5vw;
     color: white;
-    top: 20%;
+    top: 18%;
     /* left: 50%; */
     transform: translate(-50% -50%);
     position: absolute;
     width: 100%;
+    display: block;
 }
 
 .home-heading2 {
@@ -35,10 +36,27 @@
     color: white;
     position: absolute;
     transform: translate(-50% -50%);
-    top: 36%;
+    top: 28%;
     /* left: 50%; */
     width: 100%;
+    display: block;
 }
+
+.about {
+    color: white;
+}
+
+.about-container {
+    margin: 5%;
+    height: 18vh;
+}
+
+.intro-info {
+    text-align: left;
+    padding: 2vw 10vw;
+}
+
+
 
 /* For mobile phone */
 @media only screen and (max-width: 600px) {
