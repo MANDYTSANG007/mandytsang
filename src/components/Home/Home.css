@@ -1,15 +1,17 @@
 .home-main {
     margin: auto;
     display: flex;
-    position: relative;
     justify-content: center;
     overflow-x: hidden;
+    align-items: center;
 }
 
 .home-background {
     background-size: cover;
     width: 100%;
     background-position: center;
+    text-align: center;
+    position: relative;
 }
 
 .background-img {
@@ -18,26 +20,45 @@
     width: 100%;
 }
 
-.home-text {
-    width: 80%;
-    margin: -30% 10% auto 10%;
-    text-align: center;
+.home-heading1 {
+    font-size: 5vw;
     color: white;
-    z-index: 1;
+    top: 20%;
+    /* left: 50%; */
+    transform: translate(-50% -50%);
     position: absolute;
+    width: 100%;
 }
 
-.home-heading {
-    font-size: 12vh;
+.home-heading2 {
+    font-size: 2vw;
+    color: white;
+    position: absolute;
+    transform: translate(-50% -50%);
+    top: 36%;
+    /* left: 50%; */
+    width: 100%;
 }
 
 /* For mobile phone */
 @media only screen and (max-width: 600px) {
-    .home-text {
-        margin: -150% 10% auto 10%;
-        font-size: 2vh;
-    } 
-    .home-heading {
-        font-size: 8vh;
+
+    .home-heading1 {
+        font-size: 7vh;
     }   
+
+    .home-heading2 {
+        font-size: 2.5vh;
+    }
+}
+
+/* For iPad */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .home-heading1 {
+        font-size: 8vh;
+    }
+
+    .home-heading2 {
+        font-size: 3vh;
+    }
 }
