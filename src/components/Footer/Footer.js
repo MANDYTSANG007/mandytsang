@@ -23,12 +23,12 @@ const Footer = () => {
                     <div className="footer-column">
                         <h5 className="footer-title"> Social Media </h5>
                         <ul className="footer-list">
-                            <li> GitHub </li>
+                            <li><a href="https://github.com/MANDYTSANG007" target="_blank" rel="noopener noreferrer"> GitHub </a></li>
                         </ul>
                     </div>
                 </div>
                 <div className="footer-copyright">
-                    <p> Site design / logo @ 2023 Mandy Tsang </p>
+                    <h5> Site design / logo @ 2023 Mandy Tsang </h5>
                 </div>
             </div>
         </footer>

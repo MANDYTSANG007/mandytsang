@@ -26,21 +26,24 @@
 
 .footer-title {
     text-transform: uppercase;
+    font-weight: bold;
+    padding: 5px;
 }
 
 .footer-list {
     list-style: none;
+    font-size: 12px;
 }
 
 .footer-list a {
     color: white;
     text-decoration: none;
+    padding: 0 5px 0 5px;
 }
 
 .footer-copyright {
-    display: flex;
-    flex-direction: column;
-    flex: 1 1 150px;
+    padding: 3%;
+    margin-left: 0.2em;
 }
 
 /* For mobile phone */
@@ -49,9 +52,12 @@
         display: flex;
         flex-flow: row wrap;
     }
+
     .footer-logo {
-        flex: 0 0 64px;
+        /* height: 10%; */
+        display: none;
     }
+
     .footer-nav {
         flex-direction: column;
         display: flex;
@@ -60,8 +66,9 @@
     }
     
     .footer-column {
-        flex: 1 0 auto;
+        padding: 3%;
     }
+    
     /* To make the list horizontal */
     .footer-list {
         display: flex;
@@ -72,6 +79,47 @@
         flex: 1 1 150px;
         display: flex;
         flex-direction: column;
+    }
+}
+
+/* For iPad */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .footer-container {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .footer-logo {
+        height: 10vh;
+    }
+
+    .footer-nav {
+        flex-direction: column;
+        display: flex;
+        flex: 2 1 auto;
+        flex-wrap: wrap;
+    }
+
+    .footer-column {
+        padding: 3%;
+    }
+
+    .footer-list {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer-title {
+        font-size: 1.5vh;
+    }
+
+    .footer-list li {
+        font-size: 1.2vh;
+        padding: 0 10px 0 10px;
+    }
+
+    .footer-copyright {
+        display: flex;
     }
 }
 
