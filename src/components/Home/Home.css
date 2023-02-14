@@ -23,7 +23,7 @@
 .home-heading1 {
     font-size: 5vw;
     color: white;
-    top: 18%;
+    top: 16%;
     /* left: 50%; */
     transform: translate(-50% -50%);
     position: absolute;
@@ -36,10 +36,30 @@
     color: white;
     position: absolute;
     transform: translate(-50% -50%);
-    top: 28%;
+    top: 26%;
     /* left: 50%; */
     width: 100%;
     display: block;
+}
+
+.social-icons {
+    top: 32%;
+    position: absolute;
+    width: 100%;
+}
+
+.icons  {
+    color: white;
+    padding: 1% 1%;
+    -webkit-transition: color 0.7s;
+    -moz-transition:    color 0.7s;
+    -ms-transition:     color 0.7s;
+    -o-transition:      color 0.7s;
+    transition:         color 0.7s;
+}
+
+.icons:hover {
+    color: #FFD700;
 }
 
 .about {

@@ -13,13 +13,13 @@
     padding: 5vh;
     height: 15vh;
 }
-
+/* flex parent */
 .footer-nav {
     display: flex;
-    flex: 2 1 auto;
+    flex: 2 1 auto;             
     flex-wrap: wrap;
 }
-
+/* flex children */
 .footer-column {
     flex: 1 0 auto;
 }
@@ -30,6 +30,11 @@
 
 .footer-list {
     list-style: none;
+}
+
+.footer-list a {
+    color: white;
+    text-decoration: none;
 }
 
 .footer-copyright {
