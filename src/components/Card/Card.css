@@ -1,23 +1,41 @@
 .card {
     height: 100%;
     width: 50vh;
-    color: white;
     display: flex;
 }
 
-.card-title {
-    color: white;
-}
-
-.card .card-img {
+.card-img {
     height: 35vh;
     width: 100%;
-    object-fit: cover;
     opacity: 1;
+    transition: 0.5s ease;
+    backface-visibility: hidden;
 }
 
 .card-img:hover {
     opacity: 0.5;
-    background-color: rgba(0,0,0,0.5);
     transition: 600ms;
+}
+
+.overlay {
+    position: absolute;
+    height: 35vh;
+    width: 50vh;
+    transition: 0.5s ease;
+    opacity: 0;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.card:hover .card-img {
+    opacity: 0.3;
+}
+
+.card:hover .overlay {
+    opacity: 1;
+}
+
+.overlay-content {
+    text-align: left;
+    padding: 20px;
+    color: white;
 }
