@@ -1,0 +1,19 @@
+.portfolio {
+    min-height: 100vh;
+    padding: 5vh 0vh;
+    text-align: center;
+    background-color: #edefee;
+}
+
+.title {
+    color: black;
+    margin-bottom: 5vh;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 50vh);
+    justify-content: center;
+    column-gap: 5vh;
+    row-gap: 8vh;
+}
