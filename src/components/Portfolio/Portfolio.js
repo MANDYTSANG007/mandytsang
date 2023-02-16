@@ -18,9 +18,11 @@ const Portfolio = () => {
                         image={projectData.imagePath}
                     />
                 ))}
-
             </div>
         </main>
     )
 }
 export default Portfolio;
+
+
+

@@ -21,10 +21,10 @@
 }
 
 .home-heading1 {
+    font-family: "Libre Baskerville";
     font-size: 5vw;
     color: white;
     top: 16%;
-    /* left: 50%; */
     transform: translate(-50% -50%);
     position: absolute;
     width: 100%;
