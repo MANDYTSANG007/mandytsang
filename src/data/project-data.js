@@ -13,6 +13,7 @@ export const projectData = [
         repoURL: "https://github.com/MANDYTSANG007/onion-man",
         // imagePath: "https://github.com/MANDYTSANG007/mt-portfolio/blob/main/src/assets/project/onion-man.png",
         imagePath: img1,
+        tools: ["MongodbAtlas", "Node.js", "React", "Mui", "Netlify", "Google Identity Service" ],
     },
     {
         id: 2,
@@ -21,6 +22,7 @@ export const projectData = [
         repoURL: "https://github.com/MANDYTSANG007/onion-man",
         // imagePath: "https://github.com/MANDYTSANG007/mt-portfolio/blob/main/src/assets/project/megame.png",
         imagePath: img2,
+        tools: ["React", "Node.js", "Bootstrap" ],
     },
     {
         id: 3,
@@ -29,6 +31,7 @@ export const projectData = [
         repoURL: "https://github.com/MChambersIV/Perfect-Cup",
         // imagePath: "https://github.com/MANDYTSANG007/mt-portfolio/blob/main/src/assets/project/perfect-cup.png",
         imagePath: img3,
+        tools: ["Express", "MySQL", "Sequelize" ],
     },
     {
         id: 4,
@@ -37,6 +40,7 @@ export const projectData = [
         repoURL: "https://github.com/MANDYTSANG007/Developers-Tech-Blog",
         // imagePath: "https://github.com/MANDYTSANG007/mt-portfolio/blob/main/src/assets/project/techTalk.png",
         imagePath: img4,
+        tools: ["Express", "Handlebars", "Heroku", "Sequelize" ],
     },
     {
         id: 5,
@@ -45,6 +49,7 @@ export const projectData = [
         repoURL: "https://github.com/MANDYTSANG007/Work-Day-Scheduler",
         // imagePath: "https://github.com/MANDYTSANG007/mt-portfolio/blob/main/src/assets/project/work-day-scheduler.png",
         imagePath: img5,
+        tools: ["Bootstrap", "jQuery", "Moment.js" ],
     },
     {
         id: 6,
@@ -53,5 +58,6 @@ export const projectData = [
         repoURL: "https://github.com/MANDYTSANG007/cyclistic_case_study",
         // imagePath: "https://github.com/MANDYTSANG007/cyclistic_case_study/blob/main/image/popular-bike-station-chicago.png",
         imagePath: img6,
+        tools: ["SQL", "R", "RStudio" ],
     },
 ]

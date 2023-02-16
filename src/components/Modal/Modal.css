@@ -77,6 +77,18 @@
     border-bottom: 1px solid #eee;
 }
 
+.modal-tools-container {
+    display: flex;
+    flex-direction: row;
+    margin: 10;
+    align-items: center;
+}
+
+.modal-tools{
+    padding: 1%;
+}
+
+
 @media only screen and (max-width: 600px) {
     .modal-content, .modal-image {
         width: 300px;

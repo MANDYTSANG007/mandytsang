@@ -16,6 +16,7 @@ const Portfolio = () => {
                         description={projectData.description}
                         repoURL={projectData.repoURL}
                         image={projectData.imagePath}
+                        tools={projectData.tools}
                     />
                 ))}
             </div>

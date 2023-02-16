@@ -3,7 +3,7 @@ import "./Card.css";
 import Modal from "../Modal/Modal";
 
 
-const Card = ({ id, title, description, repoURL, image }) => {
+const Card = ({ id, title, description, repoURL, image, tools }) => {
     const [show, setShow] = useState(false);
 
     return (
@@ -14,8 +14,10 @@ const Card = ({ id, title, description, repoURL, image }) => {
                 title={title}
                 description={description}
                 repoURL={repoURL}
+                tools={tools}
                 onClose={() => setShow(false)}
-                show={show} />
+                show={show} 
+            />
             <img className="card-img" alt={title} src={image} />
             <div className="overlay">
                 <div className="overlay-content">
