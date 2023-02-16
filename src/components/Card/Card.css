@@ -41,3 +41,20 @@
     padding: 20px;
     color: white;
 }
+
+
+/* For iPhone X, Xs, XR, and 11 */
+@media only screen 
+    and (min-width: 414px) 
+    and (min-height: 896px) 
+    and (-webkit-device-pixel-ratio: 2) { 
+        .card {
+            width: 100%;
+            display: block;
+            padding-bottom: 10%;
+        }
+        .overlay {
+            display: none;
+        }
+    }
+
