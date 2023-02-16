@@ -13,7 +13,7 @@ export const projectData = [
         repoURL: "https://github.com/MANDYTSANG007/onion-man",
         // imagePath: "https://github.com/MANDYTSANG007/mt-portfolio/blob/main/src/assets/project/onion-man.png",
         imagePath: img1,
-        tools: ["MongodbAtlas", "Node.js", "React", "Mui", "Netlify", "Google Identity Service" ],
+        tools: ["MongoDB Atlas", "Node.js", "React", "Mui", "Netlify", "Google Identity Service" ],
     },
     {
         id: 2,

@@ -80,8 +80,12 @@
 .modal-tools-container {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     margin: 10;
     align-items: center;
+    letter-spacing: 1px;
+    font-size: 11px;
+    color: #808080;
 }
 
 .modal-tools{
