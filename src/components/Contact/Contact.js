@@ -1,12 +1,21 @@
-import React from "react";
+import React, { useRef } from "react";
+import "./Contact.css";
 
 const Contact = () => {
+    const form = useRef();
+
     return (
-        <>
-            <nav>
-                <h1> Contact</h1>
-            </nav>
-        </>
+        <main className="contact">
+            <h1 className="contact-title"> Contact Me </h1>
+            <div className="contact-container">
+                <form className="form button-section" ref={form}>
+                    <input type="text" name="name" placeholder="Your name (required)" required />
+                    <input type="email" name="email" placeholder="Your Email (required)" required />
+                    <textarea name="message" rows="8" placeholder="Your message (required)" required />
+                    <button type="submit" className="contact-button"> Send </button>
+                </form>
+            </div>
+        </main>
     )
 }
 export default Contact;
