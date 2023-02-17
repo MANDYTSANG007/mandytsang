@@ -50,3 +50,59 @@ input, textarea {
     background-color: #FFD700;
     color: black;
 }
+
+/* For mobile phone */
+@media only screen and (max-width: 600px) {
+    .contact {
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+    .contact-container {
+        text-align: center;
+        width: 100%;
+    }
+
+    .form {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .border-box {
+        box-sizing: border-box;
+    }
+
+    .contact-button {
+        align-self: center;
+    }
+}
+
+/* For iPhone X, Xs, XR, and 11 */
+@media only screen 
+    and (min-width: 414px) 
+    and (min-height: 896px) 
+    and (-webkit-device-pixel-ratio: 2) { 
+        .contact {
+            height: auto;
+        }
+    }
+
+/* For iPad */
+@media only screen 
+    and (min-width: 768px) 
+    and (max-width: 1024px) {
+        .contact-container {
+            width: 100%;
+        }
+        
+        .form {
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .border-box {
+            box-sizing: border-box;
+        }
+    }
