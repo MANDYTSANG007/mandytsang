@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import "./Card.css";
 import Modal from "../Modal/Modal";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPlus } from "@fortawesome/free-solid-svg-icons";
 
 
 const Card = ({ id, title, description, repoURL, image, tools }) => {
@@ -23,6 +25,7 @@ const Card = ({ id, title, description, repoURL, image, tools }) => {
                 <div className="overlay-content">
                     {title}
                 </div>
+                <FontAwesomeIcon className="overlay-icon" icon={faPlus} size="2x" />
             </div>
         </div>
     )

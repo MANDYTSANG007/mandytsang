@@ -28,7 +28,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="footer-copyright">
-                    <h5> Site design / logo @ 2023 Mandy Tsang </h5>
+                    <h5> Site design / logo @2023 Mandy Tsang. All rights reserved. </h5>
                 </div>
             </div>
         </footer>
