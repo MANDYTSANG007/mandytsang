@@ -7,6 +7,7 @@
 }
 
 .home-background {
+    background-color: #fff;
     background-size: cover;
     width: 100%;
     background-position: center;
@@ -23,7 +24,7 @@
 .home-heading1 {
     font-family: "Libre Baskerville";
     font-size: 5vw;
-    color: white;
+    color: #fff;
     top: 16%;
     transform: translate(-50% -50%);
     position: absolute;
@@ -33,11 +34,10 @@
 
 .home-heading2 {
     font-size: 2vw;
-    color: white;
+    color: #fff;
     position: absolute;
     transform: translate(-50% -50%);
     top: 26%;
-    /* left: 50%; */
     width: 100%;
     display: block;
 }
@@ -49,7 +49,7 @@
 }
 
 .icons  {
-    color: white;
+    color: #fff;
     padding: 1% 1%;
     -webkit-transition: color 0.7s;
     -moz-transition:    color 0.7s;
@@ -63,18 +63,45 @@
 }
 
 .about {
-    color: white;
+    color: black;
 }
 
 .about-container {
     margin: 5%;
-    height: 18vh;
+    border: 2px solid rgb(195, 193, 193);
+    border-radius: 20px;
+}
+
+.about-title {
+    margin-top: 2%;
 }
 
 .intro-info {
     text-align: left;
-    padding: 2vw 10vw;
+    padding: 2vw 20vw;
+    color: #616888;
+    font-weight: normal;
 }
+
+.skills {
+    color: black;
+}
+
+.skills-container {
+    margin: 5%;
+    border: 2px solid rgb(195, 193, 193);
+    border-radius: 20px;
+}
+
+.skills-title {
+    margin-top: 2%;
+}
+
+.skills-info {
+    padding: 2vw 20vw;
+    color: #616888;
+}
+
 
 
 /* For mobile phone */

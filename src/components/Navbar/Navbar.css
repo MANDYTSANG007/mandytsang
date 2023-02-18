@@ -27,6 +27,10 @@
     margin-left: auto;
 }
 
+.navbar .mandy:hover {
+    cursor: pointer;
+}
+
 .navbar .menu-icon:hover {
     cursor: pointer;
 }

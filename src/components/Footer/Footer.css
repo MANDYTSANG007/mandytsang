@@ -11,7 +11,7 @@
 
 .footer-logo {
     padding: 5vh;
-    height: 15vh;
+    height: 10vh;
 }
 /* flex parent */
 .footer-nav {
@@ -54,7 +54,6 @@
     }
 
     .footer-logo {
-        /* height: 10%; */
         display: none;
     }
 

@@ -1,11 +1,20 @@
 import React, { useState } from "react";
 import "./Navbar.css";
-import { Link } from "react-router-dom"
+import { Link, useNavigate } from "react-router-dom"
 
 const Navbar = () => {
     const [navbar, setNavbar] = useState(false);
+    const navigate = useNavigate();
     return (
         <nav className="navbar">
+            <img
+                src={require(`../../assets/2023-MT-wLogo.png`)}
+                alt="Mandy logo"
+                className="mandy"
+                onClick={() => {
+                    navigate("/");
+                }}
+            />
             <img
                 src={require(`../../assets/${navbar ? "x-white" : "menu-white"}.png`)}
                 alt=""
